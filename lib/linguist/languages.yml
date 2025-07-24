@@ -3924,6 +3924,14 @@ LabVIEW:
   codemirror_mode: xml
   codemirror_mime_type: text/xml
   language_id: 194
+Lambdapi Prover:
+  type: programming
+  color: "#080808"
+  extensions:
+  - ".lp"
+  tm_scope: source.lp
+  ace_mode: text
+  language_id: 710
 Lark:
   type: data
   color: "#2980B9"
