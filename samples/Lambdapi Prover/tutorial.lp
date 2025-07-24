@@ -37,7 +37,8 @@ assert ⊢ one : ℕ;
 // or that a term does not have a given type:
 assertnot ⊢ succ : ℕ;
 
-symbol + : ℕ → ℕ → ℕ;
+symbol + :
+ ℕ → ℕ → ℕ;
 notation + infix right 10;
 /* means that + is declared as infix.
 "right" means that "x + y + z" is the same as "x + (y + z)".
