@@ -3931,7 +3931,7 @@ Lambdapi Prover:
   - ".lp"
   tm_scope: source.lp
   ace_mode: text
-  language_id: 710
+  language_id: 7102023
 Lark:
   type: data
   color: "#2980B9"
