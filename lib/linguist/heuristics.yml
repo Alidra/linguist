@@ -436,7 +436,7 @@ disambiguations:
     pattern: '^import [A-Z]'
 - extensions: ['.lp']
   rules:
-  - language: Lambdapi Prover
+  - language: Lambdapi
     pattern: '^require\s.*;$|^require\s.*(\r?\n.*);$|\bsymbol\b.*:.*((\r?\n).*)?;|\bsymbol\b.*:.*;'
   - language: Linear Programming
     pattern: '^(?i:minimize|minimum|min|maximize|maximum|max)(?i:\s+multi-objectives)?$'

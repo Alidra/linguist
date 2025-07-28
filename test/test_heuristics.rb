@@ -624,7 +624,7 @@ class TestHeuristics < Minitest::Test
 
   def test_lp_by_heuristics
     assert_heuristics({
-      "Lambdapi Prover" => all_fixtures("Lambdapi Prover", "*.lp"),
+      "Lambdapi" => all_fixtures("Lambdapi", "*.lp"),
       "Answer Set Programming" => all_fixtures("Answer Set Programming", "*.lp"),
       "Linear Programming" => all_fixtures("Linear Programming", "*.lp")
     })
