@@ -437,7 +437,7 @@ disambiguations:
 - extensions: ['.lp']
   rules:
   - language: Lambdapi
-    pattern: '^require\s.*;$|^require\s.*(\r?\n.*);$|\bsymbol\b.*:.*((\r?\n).*)?;|\bsymbol\b.*:.*;|^rule\s.*'
+    pattern: '\bsymbol\b.*:.*((\r?\n).*)?;|\bsymbol\b.*:.*;|^\brule\b\s.*;$|^\brule\b\s.*(\r?\n)\bwith\b\s.*;'
   - language: Linear Programming
     pattern: '^(?i:minimize|minimum|min|maximize|maximum|max)(?i:\s+multi-objectives)?$'
   - language: Answer Set Programming
