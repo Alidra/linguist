@@ -3926,7 +3926,7 @@ LabVIEW:
   language_id: 194
 Lambdapi:
   type: programming
-  color: "#080808"
+  color: "#8027a3"
   extensions:
   - ".lp"
   tm_scope: source.lp
