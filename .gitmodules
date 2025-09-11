@@ -614,9 +614,6 @@
 [submodule "vendor/grammars/kusto-sublime"]
 	path = vendor/grammars/kusto-sublime
 	url = https://github.com/mmanela/kusto-sublime.git
-[submodule "vendor/grammars/lambdapi"]
-	path = vendor/grammars/lambdapi
-	url = https://github.com/Deducteam/lambdapi.git
 [submodule "vendor/grammars/language-4d"]
 	path = vendor/grammars/language-4d
 	url = https://github.com/4d/language-4d.git
